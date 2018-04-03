@@ -27,11 +27,10 @@ header nav, footer nav {
 	justify-content: space-around;
 }
 
-footer {
-	justify-content: flex-end;
+header a, footer a {
+	background-color: #941A00;
+	padding: 10px 20px;
 }
-
-
 
 a {
 	cursor: pointer;
@@ -39,5 +38,46 @@ a {
 
 footer {
 	bottom: 0;
-	padding: 20px;
+	justify-content: flex-end;
+	padding: 10px;
+}
+
+main {
+	margin-top: 200px;
+	margin-bottom: 110px;
+	text-align: center;
+}
+
+section {
+	background-color: #1B7192;
+	width: 75%;
+	margin: auto;
+	margin-bottom: 50px;
+	padding: 0;
+}
+
+article {
+	background-color: #04445D;
+	color: white;
+	flex: 2;
+}
+
+article, aside {
+	padding: 20px 40px;
+}
+
+aside {
+	background-color: #E8AF23;
+	flex: 1;
+}
+
+.subheading {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.content {
+	display: flex;
+	flex-direction: space-between;
+	align-items: stretch;
 }
