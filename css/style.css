@@ -1,0 +1,43 @@
+body {
+	background-color: #599bb4;
+}
+
+header, footer {
+	position: fixed;
+	display: flex;
+	background-color: #E84523;
+	color: white;
+	width: 100%;
+	left: 0;
+}
+
+header {
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+}
+
+header nav, footer nav {
+	width: 50%;
+	justify-content: space-around;
+}
+
+footer {
+	justify-content: flex-end;
+}
+
+
+
+a {
+	cursor: pointer;
+}
+
+footer {
+	bottom: 0;
+	padding: 20px;
+}
