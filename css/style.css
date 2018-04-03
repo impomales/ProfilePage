@@ -1,5 +1,10 @@
 body {
 	background-color: #599bb4;
+	font-family: 'Monserrat', sans-serif;
+}
+
+h1, h2, h3, a {
+	font-family: 'Arvo', serif;
 }
 
 header, footer {
@@ -34,6 +39,8 @@ header a, footer a {
 
 a {
 	cursor: pointer;
+	text-decoration: none;
+	color: white;
 }
 
 footer {
