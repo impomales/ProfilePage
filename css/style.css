@@ -1,5 +1,5 @@
 body {
-	background-color: #599bb4;
+	background-color: #718EA4;
 	font-family: 'Monserrat', sans-serif;
 	font-size: 2em;
 }
@@ -19,8 +19,8 @@ h2 {
 header, footer {
 	position: fixed;
 	display: flex;
-	background-color: #E84523;
-	color: white;
+	background-color: #AA5939;
+	color: #FFC2AA;
 	width: 100%;
 	left: 0;
 }
@@ -42,7 +42,7 @@ header nav, footer nav {
 }
 
 header a, footer a {
-	background-color: #941A00;
+	background-color: #551800;
 	padding: 10px 20px;
 }
 
@@ -66,7 +66,7 @@ main {
 }
 
 section {
-	background-color: #1B7192;
+	background-color: #29506D;
 	width: 75%;
 	margin: auto;
 	margin-bottom: 50px;
@@ -74,7 +74,7 @@ section {
 }
 
 article {
-	background-color: #04445D;
+	background-color: #042037;
 	color: white;
 	flex: 2;
 	height: 450px;
@@ -97,7 +97,7 @@ article, aside {
 }
 
 aside {
-	background-color: #E8AF23;
+	background-color: #AA8E39;
 	flex: 1;
 }
 
