@@ -67,15 +67,16 @@ main {
 
 section {
 	background-color: #29506D;
-	width: 75%;
+	width: 90%;
 	margin: auto;
+	margin-top: 250px;
 	margin-bottom: 50px;
 	padding: 0;
 }
 
 article {
 	background-color: #042037;
-	color: white;
+	color: #496D89;
 	flex: 2;
 	height: 450px;
 	overflow: auto;
